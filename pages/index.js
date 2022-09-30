@@ -249,7 +249,7 @@ export default function Home() {
                   <a href="https://github.com/happinessjon/Spotify-Clone">
                     <AiFillGithub className="w-[40px] h-[40px] mx-10 cursor-pointer" />
                   </a>
-                  <a href="spotify-demo-clone.netlify.app">
+                  <a href="https://spotify-demo-clone.netlify.app">
                     <FaEye className="w-[40px] h-[40px] mx-10 cursor-pointer" />
                   </a>
                 </div>
