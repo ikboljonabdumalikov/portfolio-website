@@ -12,13 +12,13 @@ import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import myteam from "../public/my-team.jpg";
+import bookmark from "../public/bookmark-cover.jpg";
+import scoot from "../public/scoot.jpg";
+import digitalbank from "../public/digitalbank.jpg";
+
 import { useEffect, useRef } from "react";
+import restCountries from "../public/restCountries.webp";
 import Typed from "typed.js";
 import Link from "next/link";
 
@@ -102,7 +102,7 @@ export default function Home() {
                 <Link href="https://www.linkedin.com/in/iqboljonabdumalikov/">
                   <AiFillLinkedin className="cursor-pointer" />
                 </Link>
-                <Link href="https://github.com/happinessjon">
+                <Link href="https://github.com/ikboljonabdumalikov">
                   <AiFillGithub className="cursor-pointer" />
                 </Link>
               </div>
@@ -202,17 +202,21 @@ export default function Home() {
                 programming and teaching.
               </p>
             </div>
+
+
+
+
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-              <div className="basis-1/3 flex-1 ">
+              <div className="basis-xs flex-1 ">
                 <Image
                   className="rounded-t-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  width={"50%"}
+                  height={"50%"}
                   layout="responsive"
-                  src={web1}
+                  src={bookmark}
                 />
                 <div className="flex justify-center items-center bg-teal-500 p-4 rounded-b-lg ">
-                  <a href="https://github.com/happinessjon/bookmark">
+                  <a href="https://github.com/ikboljonabdumalikov/bookmark">
                     <AiFillGithub className="w-[40px] h-[40px] mx-10 cursor-pointer" />
                   </a>
                   <a href="https://demo-bookmark.netlify.app/">
@@ -220,91 +224,77 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="basis-1/3 flex-1">
+
+
+
+
+              <div className="basis-xs flex-1">
                 <Image
                   className="rounded-t-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  width={"50%"}
+                  height={"50%"}
                   layout="responsive"
-                  src={web2}
+                  src={myteam}
                 />
                 <div className="flex justify-center items-center bg-teal-500 p-4 rounded-b-lg ">
-                  <a href="https://github.com/happinessjon/device">
+                  <a href="https://github.com/ikboljonabdumalikov/my-team">
                     <AiFillGithub className="w-[40px] h-[40px] mx-10 cursor-pointer" />
                   </a>
-                  <a href="https://device-wip.netlify.app">
+                  <a href="https://my-team-demo.netlify.app/">
                     <FaEye className="w-[40px] h-[40px] mx-10 cursor-pointer" />
                   </a>
                 </div>
               </div>
-              <div className="basis-1/3 flex-1">
+
+
+
+
+              <div className="basis-xs flex-1">
                 <Image
                   className="rounded-t-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  width={"50%"}
+                  height={"50%"}
                   layout="responsive"
-                  src={web3}
+                  src={digitalbank}
                 />
                 <div className="flex justify-center items-center bg-teal-500 p-4 rounded-b-lg ">
-                  <a href="https://github.com/happinessjon/Spotify-Clone">
+                  <a href="https://github.com/ikboljonabdumalikov/easybank-landing-page">
                     <AiFillGithub className="w-[40px] h-[40px] mx-10 cursor-pointer" />
                   </a>
-                  <a href="https://spotify-demo-clone.netlify.app">
+                  <a href="http://easybank-landing-page-black.vercel.app">
                     <FaEye className="w-[40px] h-[40px] mx-10 cursor-pointer" />
                   </a>
                 </div>
               </div>
-              <div className="basis-1/3 flex-1">
+
+
+
+
+              <div className="basis-xs flex-1">
                 <Image
                   className="rounded-t-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
+                  width={"50%"}
+                  height={"50%"}
                   layout="responsive"
-                  src={web4}
+                  src={restCountries}
                 />
                 <div className="flex justify-center items-center bg-teal-500 p-4 rounded-b-lg ">
-                  <a href="https://github.com/happinessjon/Rest-Countries">
+                  <a href="https://github.com/ikboljonabdumalikov/rest-countries">
                     <AiFillGithub className="w-[40px] h-[40px] mx-10 cursor-pointer" />
                   </a>
-                  <a href="https://countries-uzb.netlify.app/">
+                  <a href="https://rest-countries-delta-bay.vercel.app/">
                     <FaEye className="w-[40px] h-[40px] mx-10 cursor-pointer" />
                   </a>
                 </div>
               </div>
-              <div className="basis-1/3 flex-1">
-                <Image
-                  className="rounded-t-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web5}
-                />
-                <div className="flex justify-center items-center bg-teal-500 p-4 rounded-b-lg ">
-                  <a href="https://github.com/happinessjon/blogr">
-                    <AiFillGithub className="w-[40px] h-[40px] mx-10 cursor-pointer" />
-                  </a>
-                  <a href="https://happinessjon.github.io/blogr/">
-                    <FaEye className="w-[40px] h-[40px] mx-10 cursor-pointer" />
-                  </a>
-                </div>
-              </div>
-              <div className="basis-1/3 flex-1">
-                <Image
-                  className="rounded-t-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={web6}
-                />
-                <div className="flex justify-center items-center bg-teal-500 p-4 rounded-b-lg ">
-                  <a href="https://github.com/happinessjon/buy-job">
-                    <AiFillGithub className="w-[40px] h-[40px] mx-10 cursor-pointer" />
-                  </a>
-                  {/* <a href="http://my-team-live.netlify.app">
-                    <FaEye className="w-[40px] h-[40px] mx-10 cursor-pointer" />
-                  </a> */}
-                </div>
-              </div>
+
+
+
+
+              {/*  */}
+
+
+
             </div>
           </section>
         </section>
