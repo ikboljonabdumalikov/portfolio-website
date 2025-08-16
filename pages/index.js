@@ -252,7 +252,7 @@ export default function Home() {
                     <AiFillTwitterCircle className="cursor-pointer" />
                   </a>
                 </Link>
-                <Link href="https://www.linkedin.com/inabdumalikov/" legacyBehavior>
+                <Link href="https://www.linkedin.com/in/ikboljonabdumalikov/" legacyBehavior>
                   <a target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <AiFillLinkedin className="cursor-pointer" />
                   </a>
