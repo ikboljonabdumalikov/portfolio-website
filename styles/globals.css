@@ -19,13 +19,13 @@ a {
 
 @font-face {
   font-family: "burtons";
-  src: url("../public/Burtons.otf");
+  src: url("/Burtons.otf");
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("../public/fonts/OpenSans-Regular.woff2") format("woff2"),
-      url("../public/fonts/OpenSans-Regular.woff") format("woff");
+  src: url("/fonts/OpenSans-Regular.woff2") format("woff2"),
+      url("/fonts/OpenSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -33,8 +33,8 @@ a {
 
 @font-face {
   font-family: "Ubuntu";
-  src: url("../public/fonts/Ubuntu-Bold.woff2") format("woff2"),
-      url("../public/fonts/Ubuntu-Bold.woff") format("woff");
+  src: url("/fonts/Ubuntu-Bold.woff2") format("woff2"),
+      url("/fonts/Ubuntu-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
